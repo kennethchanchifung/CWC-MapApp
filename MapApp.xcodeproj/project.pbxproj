@@ -11,6 +11,7 @@
 		0A70E197292D09C000E78E23 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E196292D09C000E78E23 /* LaunchView.swift */; };
 		0A70E199292D09C600E78E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A70E198292D09C600E78E23 /* Assets.xcassets */; };
 		0A70E19C292D09C600E78E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A70E19B292D09C600E78E23 /* Preview Assets.xcassets */; };
+		0A70E1A7292D0F9700E78E23 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1A6292D0F9700E78E23 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		0A70E196292D09C000E78E23 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		0A70E198292D09C600E78E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A70E19B292D09C600E78E23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A70E1A5292D0BFA00E78E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0A70E1A6292D0F9700E78E23 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 		0A70E193292D09C000E78E23 /* MapApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A70E1A5292D0BFA00E78E23 /* Info.plist */,
 				0A70E194292D09C000E78E23 /* MapAppApp.swift */,
 				0A70E1A4292D0A6900E78E23 /* Views */,
 				0A70E1A3292D0A5D00E78E23 /* ViewModels */,
@@ -79,6 +83,7 @@
 		0A70E1A3292D0A5D00E78E23 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				0A70E1A6292D0F9700E78E23 /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 			files = (
 				0A70E197292D09C000E78E23 /* LaunchView.swift in Sources */,
 				0A70E195292D09C000E78E23 /* MapAppApp.swift in Sources */,
+				0A70E1A7292D0F9700E78E23 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +302,8 @@
 				DEVELOPMENT_TEAM = 5FT52DMFMG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,6 +334,8 @@
 				DEVELOPMENT_TEAM = 5FT52DMFMG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

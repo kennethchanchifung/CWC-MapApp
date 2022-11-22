@@ -12,6 +12,7 @@ struct MapAppApp: App {
     var body: some Scene {
         WindowGroup {
             LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }
