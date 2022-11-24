@@ -13,6 +13,7 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
     
     var locationManager = CLLocationManager()
     
+    @Published var authorizationState = CLAuthorizationStatus.notDetermined
     @Published var restaurants = [Business]()
     @Published var sights = [Business]()
     
@@ -31,6 +32,9 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
     
     // MARK - Location Manager Delegate Methods
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        
+        // Update the authorizationState property
+        authorizationState = locationManager.authorizationStatus
         
         if locationManager.authorizationStatus == .authorizedAlways ||
             locationManager.authorizationStatus == .authorizedWhenInUse {
@@ -58,7 +62,7 @@ class ContentModel: NSObject, CLLocationManagerDelegate, ObservableObject {
             
             // If we have the coordinates of the user, send into Yelp API
             getBusinesses(category: "arts", location: userLocation!)
-            getBusinesses(category: "restaurant", location: userLocation!)
+            getBusinesses(category: "restaurants", location: userLocation!)
             
         }
     }

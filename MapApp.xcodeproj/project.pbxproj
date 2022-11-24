@@ -15,6 +15,10 @@
 		0A70E1A9292E5EEE00E78E23 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1A8292E5EEE00E78E23 /* Business.swift */; };
 		0A70E1AB292E623800E78E23 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1AA292E623800E78E23 /* BusinessSearch.swift */; };
 		0A70E1AE292E654A00E78E23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1AD292E654A00E78E23 /* Constants.swift */; };
+		0A70E1B3292E7A3900E78E23 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B2292E7A3900E78E23 /* HomeView.swift */; };
+		0A70E1B6292E7E2000E78E23 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B5292E7E2000E78E23 /* BusinessList.swift */; };
+		0A70E1B8292FA08500E78E23 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B7292FA08500E78E23 /* BusinessSectionHeader.swift */; };
+		0A70E1BA292FA16F00E78E23 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		0A70E1A8292E5EEE00E78E23 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		0A70E1AA292E623800E78E23 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		0A70E1AD292E654A00E78E23 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0A70E1B2292E7A3900E78E23 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0A70E1B5292E7E2000E78E23 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		0A70E1B7292FA08500E78E23 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,9 @@
 		0A70E1A4292D0A6900E78E23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A70E1B1292E7A2700E78E23 /* Home */,
+				0A70E1B0292E7A1E00E78E23 /* Denied */,
+				0A70E1AF292E7A1600E78E23 /* OnBoarding */,
 				0A70E196292D09C000E78E23 /* LaunchView.swift */,
 			);
 			path = Views;
@@ -111,6 +122,39 @@
 				0A70E1AD292E654A00E78E23 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A70E1AF292E7A1600E78E23 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		0A70E1B0292E7A1E00E78E23 /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		0A70E1B1292E7A2700E78E23 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0A70E1B4292E7E1200E78E23 /* List */,
+				0A70E1B2292E7A3900E78E23 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0A70E1B4292E7E1200E78E23 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0A70E1B5292E7E2000E78E23 /* BusinessList.swift */,
+				0A70E1B7292FA08500E78E23 /* BusinessSectionHeader.swift */,
+				0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A70E197292D09C000E78E23 /* LaunchView.swift in Sources */,
+				0A70E1B3292E7A3900E78E23 /* HomeView.swift in Sources */,
 				0A70E1A9292E5EEE00E78E23 /* Business.swift in Sources */,
+				0A70E1B8292FA08500E78E23 /* BusinessSectionHeader.swift in Sources */,
 				0A70E195292D09C000E78E23 /* MapAppApp.swift in Sources */,
 				0A70E1AB292E623800E78E23 /* BusinessSearch.swift in Sources */,
+				0A70E1B6292E7E2000E78E23 /* BusinessList.swift in Sources */,
+				0A70E1BA292FA16F00E78E23 /* BusinessSection.swift in Sources */,
 				0A70E1A7292D0F9700E78E23 /* ContentModel.swift in Sources */,
 				0A70E1AE292E654A00E78E23 /* Constants.swift in Sources */,
 			);
