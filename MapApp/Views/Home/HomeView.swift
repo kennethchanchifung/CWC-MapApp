@@ -29,7 +29,7 @@ struct HomeView: View {
                     Divider()
                     BusinessList()
                     Text("HomeView")
-                }
+                }.padding([.horizontal, .top])
             }
             else {
                 // Show map

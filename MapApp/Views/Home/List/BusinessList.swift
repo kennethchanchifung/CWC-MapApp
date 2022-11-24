@@ -13,7 +13,7 @@ struct BusinessList: View {
     
     var body: some View {
         VStack{
-            ScrollView{
+            ScrollView(showsIndicators: false){
                 LazyVStack{
                     BusinessSection(title: "Restaurants", businesses: model.restaurants)
                     BusinessSection(title: "Sights", businesses: model.sights)

@@ -19,6 +19,7 @@
 		0A70E1B6292E7E2000E78E23 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B5292E7E2000E78E23 /* BusinessList.swift */; };
 		0A70E1B8292FA08500E78E23 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B7292FA08500E78E23 /* BusinessSectionHeader.swift */; };
 		0A70E1BA292FA16F00E78E23 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */; };
+		0A70E1BC292FABB000E78E23 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1BB292FABB000E78E23 /* BusinessRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		0A70E1B5292E7E2000E78E23 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		0A70E1B7292FA08500E78E23 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		0A70E1BB292FABB000E78E23 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				0A70E1B5292E7E2000E78E23 /* BusinessList.swift */,
 				0A70E1B7292FA08500E78E23 /* BusinessSectionHeader.swift */,
 				0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */,
+				0A70E1BB292FABB000E78E23 /* BusinessRow.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A70E197292D09C000E78E23 /* LaunchView.swift in Sources */,
+				0A70E1BC292FABB000E78E23 /* BusinessRow.swift in Sources */,
 				0A70E1B3292E7A3900E78E23 /* HomeView.swift in Sources */,
 				0A70E1A9292E5EEE00E78E23 /* Business.swift in Sources */,
 				0A70E1B8292FA08500E78E23 /* BusinessSectionHeader.swift in Sources */,
