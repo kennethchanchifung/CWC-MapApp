@@ -21,6 +21,7 @@
 		0A70E1BA292FA16F00E78E23 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */; };
 		0A70E1BC292FABB000E78E23 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E1BB292FABB000E78E23 /* BusinessRow.swift */; };
 		0ADEB115292FC55E008A2164 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEB114292FC55E008A2164 /* BusinessDetail.swift */; };
+		0ADEB11C29305E40008A2164 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEB11B29305E40008A2164 /* BusinessMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0A70E1B9292FA16F00E78E23 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 		0A70E1BB292FABB000E78E23 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 		0ADEB114292FC55E008A2164 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		0ADEB11B29305E40008A2164 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		0A70E1B1292E7A2700E78E23 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0ADEB11629305DC4008A2164 /* Map */,
 				0A70E1B4292E7E1200E78E23 /* List */,
 				0A70E1B2292E7A3900E78E23 /* HomeView.swift */,
 			);
@@ -169,6 +172,14 @@
 				0ADEB114292FC55E008A2164 /* BusinessDetail.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		0ADEB11629305DC4008A2164 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0ADEB11B29305E40008A2164 /* BusinessMap.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 				0ADEB115292FC55E008A2164 /* BusinessDetail.swift in Sources */,
 				0A70E1AB292E623800E78E23 /* BusinessSearch.swift in Sources */,
 				0A70E1B6292E7E2000E78E23 /* BusinessList.swift in Sources */,
+				0ADEB11C29305E40008A2164 /* BusinessMap.swift in Sources */,
 				0A70E1BA292FA16F00E78E23 /* BusinessSection.swift in Sources */,
 				0A70E1A7292D0F9700E78E23 /* ContentModel.swift in Sources */,
 				0A70E1AE292E654A00E78E23 /* Constants.swift in Sources */,
