@@ -11,6 +11,7 @@ import MapKit
 struct BusinessMap: UIViewRepresentable {
     
     @EnvironmentObject var model: ContentModel
+    @Binding var selectedBusiness: Business?
     
     var locations: [MKPointAnnotation] {
         
@@ -60,10 +61,16 @@ struct BusinessMap: UIViewRepresentable {
     
     // MARK - Coordinator class
     func makeCoordinator() -> Coordinator {
-        return Coordinator()
+        return Coordinator(map: self)
     }
     
     class Coordinator: NSObject, MKMapViewDelegate {
+        
+        var map: BusinessMap
+        
+        init(map: BusinessMap) {
+            self.map = map
+        }
         
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
             // If the annotation is the user blue dot, return nil
@@ -86,6 +93,20 @@ struct BusinessMap: UIViewRepresentable {
 
             // Return it
             return annotationView
+        }
+        
+        func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+            // User tapped on the annotation view
+            
+            // Get the business object that this annotation represents
+            // Loop through business in the model and find a map
+            for business in map.model.restaurants + map.model.sights {
+                if business.name == view.annotation?.title {
+                    // Set the selectedBusiness property to that business object
+                    map.selectedBusiness = business
+                    return
+                }
+            }
         }
         
     }
