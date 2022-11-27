@@ -15,8 +15,7 @@ struct HomeView: View {
     
     var body: some View {
         
-        if model.restaurants.count != 0 ||
-            model.sights.count != 0 {
+        if model.restaurants.count != 0 || model.sights.count != 0 {
             NavigationView{
                 // Determine if we should show list or map
                 if !isMapShowing {
