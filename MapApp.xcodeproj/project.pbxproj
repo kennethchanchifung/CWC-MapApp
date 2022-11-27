@@ -10,6 +10,8 @@
 		0A45854529332299000F4472 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45854429332299000F4472 /* DirectionsView.swift */; };
 		0A45854729332386000F4472 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45854629332386000F4472 /* BusinessTitle.swift */; };
 		0A45854929332D0D000F4472 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45854829332D0D000F4472 /* DirectionsMap.swift */; };
+		0A45854B29334637000F4472 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45854A29334637000F4472 /* OnboardingView.swift */; };
+		0A45854D29334EA4000F4472 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45854C29334EA4000F4472 /* LocationDeniedView.swift */; };
 		0A70E195292D09C000E78E23 /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E194292D09C000E78E23 /* MapAppApp.swift */; };
 		0A70E197292D09C000E78E23 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70E196292D09C000E78E23 /* LaunchView.swift */; };
 		0A70E199292D09C600E78E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A70E198292D09C600E78E23 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		0A45854429332299000F4472 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
 		0A45854629332386000F4472 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
 		0A45854829332D0D000F4472 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
+		0A45854A29334637000F4472 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0A45854C29334EA4000F4472 /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
 		0A70E191292D09C000E78E23 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A70E194292D09C000E78E23 /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
 		0A70E196292D09C000E78E23 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 		0A70E1AF292E7A1600E78E23 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				0A45854A29334637000F4472 /* OnboardingView.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 		0A70E1B0292E7A1E00E78E23 /* Denied */ = {
 			isa = PBXGroup;
 			children = (
+				0A45854C29334EA4000F4472 /* LocationDeniedView.swift */,
 			);
 			path = Denied;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				0A45854529332299000F4472 /* DirectionsView.swift in Sources */,
 				0A70E1B3292E7A3900E78E23 /* HomeView.swift in Sources */,
 				0A70E1A9292E5EEE00E78E23 /* Business.swift in Sources */,
+				0A45854D29334EA4000F4472 /* LocationDeniedView.swift in Sources */,
 				0A70E1B8292FA08500E78E23 /* BusinessSectionHeader.swift in Sources */,
 				0A70E195292D09C000E78E23 /* MapAppApp.swift in Sources */,
 				0ADEB115292FC55E008A2164 /* BusinessDetail.swift in Sources */,
@@ -276,6 +283,7 @@
 				0ADEB11C29305E40008A2164 /* BusinessMap.swift in Sources */,
 				0A70E1BA292FA16F00E78E23 /* BusinessSection.swift in Sources */,
 				0A70E1A7292D0F9700E78E23 /* ContentModel.swift in Sources */,
+				0A45854B29334637000F4472 /* OnboardingView.swift in Sources */,
 				0A70E1AE292E654A00E78E23 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
